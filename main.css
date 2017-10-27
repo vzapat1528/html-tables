@@ -1,0 +1,75 @@
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	
+}
+
+table {
+	border-collapse: collapse;
+}
+
+caption {
+	color: #522d80;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+thead{
+	
+}
+
+tbody {
+	
+}
+
+tr {
+	
+}
+
+tr.home {
+	background-color: #cccccc;
+}
+
+tr.away {
+	
+}
+
+th {
+	background-color: #f16a26;
+	color: #ffffff;
+	padding: 7px;
+}
+
+td {
+	padding: 7px;
+}
+
+@media (max-width: 600px) {
+  table{
+	width: 100%
+}
+
+thead {
+	display:  none;
+}
+
+tr {
+	border: 1px solid #aaaaaa;
+	display: block;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+td {
+	display: block;
+	text-align: right;
+}
+
+td:before {
+	content: attr(aria-label);
+	float: left;
+	font-weight: bold;
+}
+}
