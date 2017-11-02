@@ -1,0 +1,80 @@
+body {
+	font-family: 'Pragati Narrow', sans-serif;
+	font-size: 18px;
+}
+
+h1 {
+	font-family: 'Pragati Narrow', sans-serif;
+	font-size: 40px;
+	color:#0b5570
+
+}
+
+table {
+	border-collapse: collapse;
+	
+}
+
+caption {
+	color: #000000;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+thead{
+	
+}
+
+tbody {
+	
+}
+
+tr {
+	
+}
+
+tr.home {
+	background-color: #cccccc;
+}
+
+tr.away {
+	
+}
+
+th {
+	background-color: #f16a26;
+	color: #ffffff;
+	padding: 7px;
+}
+
+td {
+	padding: 7px;
+}
+
+@media (max-width: 600px) {
+  table{
+	width: 100%
+}
+
+thead {
+	display:  none;
+}
+
+tr {
+	border: 1px solid #aaaaaa;
+	display: block;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+td {
+	display: block;
+	text-align: right;
+}
+
+td:before {
+	content: attr(aria-label);
+	float: left;
+	font-weight: bold;
+}
+}
